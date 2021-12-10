@@ -1,0 +1,21 @@
+@import "_variables";
+
+.pitch-table-header {
+  font-weight: $font-semibold;
+  background: $cleBlue;
+  color: white;
+  padding: 2px 5px;
+}
+
+.pitch-table-row {
+  padding: 2px 3px;
+}
+
+.pitch-table-entry {
+  width: 30%;
+  display: inline-block;
+}
+
+.pitch-table-row:nth-child(odd) {
+  background: #CACACA;
+}

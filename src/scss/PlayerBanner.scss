@@ -1,0 +1,19 @@
+@import 'variables';
+
+.title {
+  width: 120px;
+  display: inline-block;
+  font-weight: $font-semibold;
+}
+
+.info {
+  display: inline-block;
+}
+
+.player-info {
+  margin: 10px auto;
+}
+
+.margin-separated {
+  margin-bottom: 5px;
+}

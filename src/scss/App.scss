@@ -1,0 +1,12 @@
+@import "_variables";
+
+#app {
+  background-color: $pageBg;
+  min-height: 100%;
+}
+
+.player-list {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+}

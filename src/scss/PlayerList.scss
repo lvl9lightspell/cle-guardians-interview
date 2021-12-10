@@ -1,0 +1,30 @@
+@import 'variables';
+
+.table {
+  padding: 5px 0px 5px 10px;
+  width: 250px;
+  color: #FFFFFF;
+}
+
+.table:nth-child(odd) {
+  background: rgba($cleRed, 1.0);
+}
+
+.table:nth-child(even) {
+  background: rgba($cleBlue, 1.0);
+}
+
+.table:hover {
+  color: #CACACA;
+  background: #000000;
+  font-weight: $font-bold;
+}
+
+.colName {
+  width: 180px;
+  display: inline-block;
+}
+
+.colPos {
+  display: inline-block;
+}
